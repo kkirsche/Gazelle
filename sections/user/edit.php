@@ -797,15 +797,15 @@ list($ArtistsAdded) = $DB->next_record();
 				<td>
 					<div class="field_div">
 						<label>Current password:<br />
-						<input type="password" size="40" name="cur_pass" id="cur_pass" value="" /></label>
+						<input type="password" size="40" name="cur_pass" id="cur_pass" value="" placeholder="Password" /></label>
 					</div>
 					<div class="field_div">
 						<label>New password:<br />
-						<input type="password" size="40" name="new_pass_1" id="new_pass_1" value="" /> <strong id="pass_strength"></strong></label>
+						<input type="password" size="40" name="new_pass_1" id="new_pass_1" value="" placeholder="New Password" /> <strong id="pass_strength"></strong></label>
 					</div>
 					<div class="field_div">
 						<label>Confirm new password:<br />
-						<input type="password" size="40" name="new_pass_2" id="new_pass_2" value="" /> <strong id="pass_match"></strong></label>
+						<input type="password" size="40" name="new_pass_2" id="new_pass_2" value="" placeholder="New Password" /> <strong id="pass_match"></strong></label>
 					</div>
 					<div class="setting_description">
 						A strong password:
